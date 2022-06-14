@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Arial;
+    src: url("shelter/assets/fonts/Arial.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Georgia;
+    src: url("shelter/assets/fonts/Georgia.ttf");
+    font-weight: 400;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+:root {
+    --color-peachy: #F1CDB3;
+    --color-black: #000;
+    --color-white: #FFFFFF;
+    --color-gray: #CDCDCD;
+    --color-light-gray: #FAFAFA;
+    --font35: 35px;
+    --font20: 20px;
+    --font17: 17px;
+    --font15 : 15px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.container {
+    background-color: #CDCDCD;
+    width: 1200px;
+}
+ 
