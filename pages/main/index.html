@@ -9,8 +9,8 @@
     </head>
     <body>
         <div class="container">
-            <header>
-                <div class="container">
+            <header class="header">
+                <section class="nav-menu">
                     <div class="logo">
                         <h1>Cozy House</h1>
                         <p>Shelter for pets in Boston</p>
@@ -23,9 +23,9 @@
                             <li>Contacts</li>
                         </ul>
                     </nav>
-                </div>
+                </section>
             </header>
-            <main>
+            <main class="main">
                 <div class="hero-screen">
                     <section class="hero-content">
                         <h2>Not only people need a house</h2>
@@ -35,9 +35,11 @@
                         </p>
                         <button>Make a friend</button>
                     </section>
+                    <img class="hero-dog-img" src="/assets/images/start-screen-puppy.png" width="698" height="728" alt="Puppy">
                 </div>
-                <div>
-                    <section class="about">
+                <div class="about-pets">
+                    <img class="about-pets-img" src="/assets/images/about-pets.png" width="300" height="408" alt="Pets">
+                    <section class="about-content">
                         <h3>About the shelter Cozy House</h3>
                         <p>
                             Currently we have 121 dogs and 342 cats on our hands and statistics show that only 20% of them will find a family. 
@@ -52,19 +54,77 @@
                         </p>
                     </section>
                 </div>
-                <div>
-                    <section class="pets">
+                <div class="pets">
+                    <section class="pets-content">
                         <h3>Our friends who are looking for a house</h3>
+                        <div class="pets-slider">
+                            <button class="arrow"></button>
+                            <div class="card">
+                                <img class="pets-cat-img" src="/assets/images/pets-katrine.png" width="270" height="270" alt="Cat Katrine">
+                                <span>Katrine</span>
+                                <button class="card-bttn">Learn more</button>
+                            </div>
+                            <div class="card">
+                                <img class="pets-puppy-img" src="/assets/images/pets-jennifer.png" width="270" height="270" alt="Puppy Jennifer">
+                                <span>Jennifer</span>
+                                <button class="card-bttn">Learn more</button>
+                            </div>
+                            <div class="card">
+                                <img class="pets-dog-img" src="/assets/images/pets-woody.png" width="270" height="270" alt="Dog Woody">
+                                <span>Woody</span>
+                                <button class="card-bttn">Learn more</button>
+                            </div>
+                            <button class="arrow"></button>
+                        </div>
                         <button>Get to know the rest</button>
                     </section>
                 </div>
-                <div>
-                    <section class="help">
+                <div class="help">
+                    <section class="help-content">
                         <h3>How you can help our shelter</h3>
+                        <div class="help-list">
+                            <div class="help-item">
+                                <img src="/assets/icons/icon-pet-food.svg" width="60" height="60" alt="Pet food icon">
+                                <Span>Pet food</Span>
+                            </div>
+                            <div class="help-item">
+                                <img src="/assets/icons/icon-transportation.svg" width="60" height="60" alt="Transportation icon">
+                                <Span>Transportation</Span>
+                            </div>
+                            <div class="help-item">
+                                <img src="/assets/icons/icon-toys.svg" width="60" height="60" alt="Toys icon">
+                                <Span>Toys</Span>
+                            </div>
+                            <div class="help-item">
+                                <img src="/assets/icons/icon-bowls-and-cups.svg" width="60" height="60" alt="Bowls and cups icon">
+                                <Span>Bowls and cups</Span>
+                            </div>
+                            <div class="help-item">
+                                <img src="/assets/icons/icon-shampoos.svg" width="60" height="60" alt="Shampoos icon">
+                                <Span>Shampoos</Span>
+                            </div>
+                            <div class="help-item">
+                                <img src="/assets/icons/icon-vitamins.svg" width="60" height="60" alt="Vitamins icon">
+                                <Span>Vitamins</Span>
+                            </div>
+                            <div class="help-item">
+                                <img src="/assets/icons/icon-medicines.svg" width="60" height="60" alt="Medicines icon">
+                                <Span>Medicines</Span>
+                            </div>
+                            <div class="help-item">
+                                <img src="/assets/icons/icon-collars-leashes.svg" width="60" height="60" alt="Collars/leashes icon">
+                                <Span>Collars / leashes</Span>
+                            </div>
+                            <div class="help-item">
+                                <img src="/assets/icons/icon-sleeping-area.svg" width="60" height="60" alt="Sleeping areas icon">
+                                <Span>Sleeping areas</Span>
+                            </div>
+                        </div>
                     </section>
                 </div>
-                <div>
-                    <section class="donation">
+                <div class="donation">
+                    <img class="donation-dog-img" src="/assets/images/donation-dog.png" width="505" height="261" alt="Puppy">
+                    <section class="donation-content">
                         <h3>You can also make a donation</h3>
                         <p>Name of the bank / Type of bank account</p>
                         <p>
@@ -76,14 +136,20 @@
                     </section>
                 </div>
             </main>
-            <footer>
+            <footer class="footer">
                <div class="footer-content">
                 <section class="contacts">
                     <h3>For questions and suggestions</h3>
                     <div class="footer-contacts">
                         <ul class="contacts-list">
-                            <li>email@shelter.com</li>
-                            <li>+13 674 567 75 54</li>
+                            <li>
+                                <img src="/assets/icons/icon-email.svg" width="40" height="32" alt="Email icon">
+                                <span>email@shelter.com</span>
+                            </li>
+                            <li>
+                                <img src="/assets/icons/icon-phone.svg" width="40" height="32" alt="Phone icon">
+                               <span>+13 674 567 75 54</span>
+                            </li>
                         </ul>
                     </div>
                 </section>
@@ -92,13 +158,18 @@
                     <div class="footer-locations">
                         <ul class="locations-list">
                             <li>
-                                1 Central Street, Boston 
-                                (entrance from the store)
+                                <img src="/assets/icons/icon-marker.svg" width="22" height="32" alt="Marker icon">
+                                <span>1 Central Street, Boston 
+                                (entrance from the store)</span>
                             </li>
-                            <li>18 South Park, London</li>
+                            <li>
+                                <img src="/assets/icons/icon-marker.svg" width="22" height="32" alt="Marker icon">
+                                <span>18 South Park, London</span>
+                            </li>
                         </ul>
                     </div>
                 </section>
+                <img class="footer-dog" src="/assets/images/footer-puppy.png" width="300" height="310" alt="Puppy">
                </div> 
             </footer>
         </div>

@@ -36,7 +36,9 @@ body {
 }
 
 .container {
+    position: relative;
     background-color: #CDCDCD;
     width: 1200px;
+
 }
- 
+
